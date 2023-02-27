@@ -17,6 +17,7 @@
 
     <entry key='geocoder.enable'>true</entry>
     <entry key='geocoder.type'>nominatim</entry>
+    <entry key='geocoder.url'>http://5.75.249.255/reverse</entry>
 <!--    <entry key='geocoder.key'>pk.689d849289c8c63708068b2ff1f63b2d</entry>-->
     <entry key='geocoder.onRequest'>true</entry>
     <entry key='geocoder.ignorePositions'>true</entry>
@@ -39,10 +40,6 @@
 <!--    <entry key='database.url'>jdbc:postgresql://pgpool-svc.database.svc.cluster.local:5432/gtmobi</entry>-->
 <!--    <entry key='database.user'>gtmobi_user</entry>-->
 <!--    <entry key='database.password'>gtmobi#2023@user</entry>-->
-    <entry key='database.driver'>org.h2.Driver</entry>
-    <entry key='database.url'>jdbc:h2:./target/database</entry>
-    <entry key='database.user'>sa</entry>
-    <entry key='database.password'></entry>
     <entry key='commands.queueing'>true</entry>
 
     <entry key='database.ignoreUnknown'>true</entry>
